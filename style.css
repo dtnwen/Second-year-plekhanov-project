@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background: #1befef
+}
+.nav {
+    width: 100%;
+    background: #884fc8;
+    height: 80px;
+    position:fixed
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+    position: absolute;
+}
+ul li {
+    float: left;
+    margin-top: 20px;
+}
+ul li a {
+    width:150px;
+    color:white;
+    display:block;
+    text-decoration:none;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    font-family:'Century Gothic';
+    font-weight:bold;
+}
+a:hover {
+    background: #790fe2
+}
+ul li ul {
+    background: #b21db4;
+    display: none;
+}
+ul li ul li {
+    float:none;
+}
+ul li:hover ul {
+    display:block
+}
+.nav input[type=text] {
+    float:right;
+    padding: 15px 15px 15px 180px;
+    border:none;
+    margin-top:15px;
+    margin-right:16px;
+    font-size:17px;
+    text-align:left
+}
+.logo img {
+    position:absolute;
+    margin-top:-20px;
+    margin-left:20px
+}
+.name {
+    width: 300px;
+    color: #b6ff00;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0px 10px 100px;
+    border-radius: 10px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    margin-top: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold
+}
+.body {
+    padding:80px 40px 0px 40px;
+    font-family: cursive
+}
+p {
+    text-indent:40px;
+    font-size: 18px;
+}
+h1 {
+    font-size: 60px
+}
+h2 {
+    font-size: 45px;
+    font-weight: bold
+}
+h3 {
+    font-size: 40px
+}
+h4 {
+    font-size: 35px
+}
+h5 {
+    font-size: 30px
+}
+h6 {
+    font-size: 20px
+}
+.body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
